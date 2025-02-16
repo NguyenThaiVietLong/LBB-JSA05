@@ -1,0 +1,46 @@
+.container{
+    /* grid-template-columns: xác định số cột của lưới */
+
+    display:grid;
+    
+    grid-template-columns: auto auto auto auto auto auto auto  ;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: #80cbc4;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.item{
+    
+    background-color: #80cbc4;
+    border: 1px solid #fff;
+    padding:20px;
+    font-size:30px;
+    text-align:center;
+}
+#item1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: yellow;
+}
+#item2{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start:2;
+    grid-column-end:4;
+    background-color: red;
+}
+#item3{
+   grid-row-start: 1;
+   grid-row-end:3;
+   grid-column-start:4;
+   grid-column-end:7;
+}
+#item6{
+    grid-column-start: 4;
+    grid-column-end:7;
+}
+#item7{
+    background-color: yellow;
+}
